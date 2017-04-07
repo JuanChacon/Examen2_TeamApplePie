@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLATAFORMA I" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKe-0V-BvW">
+                                <rect key="frame" x="238" y="20" width="124" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXAMEN PRÁCTICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfa-y0-usg">
+                                <rect key="frame" x="235" y="74" width="131" height="17"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2DA EVALUACIÓN PARCIAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaS-AX-sSa">
+                                <rect key="frame" x="211" y="49" width="179" height="17"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INTEGRANTES: BRANDON AGUIRRE TREJO ADRIAN EDUARDO BARRIOS LÓPEZ FRANCISCO RAMON CASTILLO MENDOZA JUAN HUMBERTO CHACON HOLGUIN" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wym-C0-mhP">
+                                <rect key="frame" x="179" y="99" width="242" height="72"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeromac" translatesAutoresizingMaskIntoConstraints="NO" id="nmD-Wc-O6S">
+                                <rect key="frame" x="120" y="179" width="360" height="150"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="sKV-UV-hQP"/>
+                                    <constraint firstAttribute="height" constant="150" id="xIj-ng-gxv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZaS-AX-sSa" firstAttribute="top" secondItem="uKe-0V-BvW" secondAttribute="bottom" constant="8" id="4wr-rd-oaS"/>
+                            <constraint firstItem="wym-C0-mhP" firstAttribute="top" secondItem="Nfa-y0-usg" secondAttribute="bottom" constant="8" id="5UG-LM-ctI"/>
+                            <constraint firstItem="uKe-0V-BvW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8Ki-sQ-16d"/>
+                            <constraint firstItem="ZaS-AX-sSa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bef-Lb-7JP"/>
+                            <constraint firstItem="Nfa-y0-usg" firstAttribute="top" secondItem="ZaS-AX-sSa" secondAttribute="bottom" constant="8" id="Rx0-jJ-gek"/>
+                            <constraint firstItem="uKe-0V-BvW" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="clS-bb-G6B"/>
+                            <constraint firstItem="Nfa-y0-usg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fgO-mh-oHy"/>
+                            <constraint firstItem="wym-C0-mhP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kTw-bp-Gop"/>
+                            <constraint firstItem="nmD-Wc-O6S" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lCk-Xz-wio"/>
+                            <constraint firstItem="nmD-Wc-O6S" firstAttribute="top" secondItem="wym-C0-mhP" secondAttribute="bottom" constant="8" id="ogY-4c-lBM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homeromac" width="2560" height="1600"/>
+    </resources>
+</document>
